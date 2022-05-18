@@ -10,7 +10,7 @@ body {
   // Fullscreen background image example
   background-image: url('../../images/Background.png');
   // @apply bg-center bg-cover bg-fixed;
-  backdrop-filter: brightness(0.4);
+  // backdrop-filter: brightness(0.4);
 }
 
 a, a:link, a:visited {
@@ -34,7 +34,7 @@ main {
 #logo {
   @apply m-auto;
   @apply w-full;
-  @apply max-w-md;
+  @apply max-w-3xl;
 }
 
 span.emoji {
