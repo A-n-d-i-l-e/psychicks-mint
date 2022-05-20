@@ -10,23 +10,23 @@ const CollectionConfig: CollectionConfigInterface = {
   // yarn rename-contract NEW_CONTRACT_NAME
   // Please DO NOT change it manually!
   contractName: 'PsyChicksMint',
-  tokenName: 'PsychicksDao',
-  tokenSymbol: 'PsychicksDao',
+  tokenName: 'Psychicks',
+  tokenSymbol: 'Psyc',
   hiddenMetadataUri: 'ipfs://QmVh7yF4e1X5MZkp8WNVXnsiFqYygNNBqywBx7Awm7nsES/hidden.json',
-  maxSupply: 10,
+  maxSupply: 9999,
   whitelistSale: {
-    price: 0.05,
-    maxMintAmountPerTx: 1,
+    price: 0.20,
+    maxMintAmountPerTx: 8,
   },
   preSale: {
-    price: 0.07,
-    maxMintAmountPerTx: 2,
+    price: 0.15,
+    maxMintAmountPerTx: 8,
   },
   publicSale: {
-    price: 0.09,
-    maxMintAmountPerTx: 5,
+    price: 0.30,
+    maxMintAmountPerTx: 4,
   },
-  contractAddress: '0x841f44b7EBdB30BCF0a36BA1d53BE2bd2706758b',
+  contractAddress: '0xf5D082F01c269fEab4924E3a188aC6d9f64d59BA',
   marketplaceIdentifier: 'my-nft-token',
   marketplaceConfig: Marketplaces.openSea,
   whitelistAddresses,
